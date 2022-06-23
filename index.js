@@ -27,8 +27,5 @@ class FormInput extends HTMLElement {
         this.attachShadow({ mode: "open"});
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
-    attributeChangedCallback(){
-
-    }
 }
-window.customElements.define("f-input", FormInput);
+window.customElements.define("f-input", "temp-t", FormInput);
