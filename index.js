@@ -28,4 +28,4 @@ class FormInput extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 }
-window.customElements.define("f-input", "temp-t", FormInput);
+window.customElements.define("f-input", FormInput);
